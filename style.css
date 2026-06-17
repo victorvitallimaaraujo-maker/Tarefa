@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width:400px) and (max-width:600px) {
+    #header {
+        width: 100vw;
+        height: 10vh;
+        background-color: #534ab7;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+#titles h1 {
+    color: white;
+    font-size: 18px;
+    margin-left: 6vw;
+}   
+    #icons-header {
+        color: #ad9add;
+        margin-right: 6vw;
+        width: 13vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 18px;
+    }
+    #welcome {
+       width: 100vw;
+       height: 20vh;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    #box-welcome {
+        background-color: #eeedfe;
+        font-size: 12px;
+        width: 90%;
+        height: 15vh;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #box-titles p {
+        color: #618fde;
+        margin-top: 1vh;
+    }
+    #box-round {
+        height: 8vh;
+        width: 10vw;
+        background-color: #534ab7;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #box-round i {
+        color: white;
+    }
+    #destaques {
+        width: 100vw;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    #destaques-titulo {
+        width: 100vw;
+        margin-left: 10vw;
+    }
+    #destaques-titulo h1 {
+        font-weight: normal;
+        font-size: 18px;
+    }
+    .card {
+        width: 90vw;
+        border: 1px solid #979797;
+        border-radius: 10px;
+        height: 15vh;
+        margin-bottom: 2vh;
+        margin-top: 2vh;
+        display: flex;
+        align-items: center;
+    }
+    .card-icon {
+        margin-left: 3vw;
+        margin-right: 6vw;
+    }
+    .card-icon i {
+        color: #dcf500;
+        font-size: 25px;
+    }
+    #heart {
+        color: #ee0707;
+    }
+}
+
+
+
+
